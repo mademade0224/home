@@ -1,0 +1,180 @@
+
+body {
+  background-color: #ffffff;
+  font-family: monospace;
+  margin: 0;
+}
+
+.container {
+
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column; /* ← 縦並び宣言！ */
+  align-items: center;    /* ← 中央ぞろえ */
+  padding-top: 0;
+  background-color: transparent;
+}
+
+
+.logo {
+  margin: 20px 0;
+  width: 300px;       
+}
+
+.xbig {
+  font-size: 26px;
+  margin: 20px 0;
+  display: block;        
+  color: inherit;       
+  text-decoration: none; 
+}
+
+
+footer {
+  margin-top: 40px;
+  font-size: 12px;
+}
+.site-header{
+  text-align: center;
+}
+
+
+.notice {
+  display: flex;
+  justify-content: center; 
+}
+
+.notice-box {
+  width: 260px; 
+  text-align: left;     
+  font-family: monospace; 
+  color: black;
+}
+
+.notice-title {
+  display: block;    
+  color: inherit;     
+  /* text-decoration: none;  */
+  text-align: center;   
+  color: blue;
+}
+
+.notice-text {
+ /* text-decoration: none; */
+}
+
+.notice-text-area {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline; 
+}
+
+
+.notice-line {
+  text-align: center;  
+}
+
+.notice-text {
+  margin: 6px 0;   
+}
+
+.box {
+  background-color: #d5e0ff;
+  padding: 12px 20px;
+  border-radius: 6px; 
+  display: inline-block;
+  width: 260px;          
+  text-align: left;       
+  font-family: monospace; 
+
+}
+
+.layout {
+  display: flex;    
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0; 
+  width: 200px;      
+  height: 100vh;
+  background-color: rgba(230,244,255,0.9);
+  padding: 16px;
+  text-align: center; 
+}
+
+.main {
+  padding: 20px;
+  min-height: 100vh;
+  margin-left: 200px;
+  overflow: auto;
+}
+
+.menu a {
+  display: block;        
+  margin-bottom: 12px;    
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover {
+  background-color: #bfe7ff;
+}
+
+.menu a.null:hover {
+  background-color: transparent; 
+}
+
+.null {
+  font-size: 26px;
+  margin: 20px 0;
+  color: blue;
+}
+
+.super {
+     font-size: calc(100vw/40);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;  
+}
+
+.menu-link {
+ font-size: calc(100vw/50);
+  color: blue;
+  display: block;
+}
+
+.menu-title {
+  font-size: calc(100vw/40);
+  font-weight: bold;
+}
+
+.bigfont {
+ font-size: calc(100vw/80);
+  color: black;
+}
+
+
+
+
