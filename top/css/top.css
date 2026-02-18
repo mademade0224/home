@@ -1,0 +1,4 @@
+.bigfont {
+ font-size: calc(100vw/80);
+  color: black;
+}
