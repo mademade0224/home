@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>未定</title>
+  <link rel="stylesheet" href="css/home.css">
+
+</head>
+
+<body>
+
+ <script>
+ document.oncontextmenu = function() {
+   alert("右クリックは禁止です！");
+   return false;
+ };
+ </script>
+
+<div class="layout">
+  <div class="menu">
+    <a href="https://google.com" class="null">素晴らしい部屋</a>
+
+   <div class="menu-title">
+   <strong>MENU</strong>
+   </div>
+    <br><br>
+    <a href="#" class="menu-link">☆top☆</a>
+    <a href="#" class="menu-link">★prof★</a>
+    <a href="#" class="menu-link">☆news☆</a>
+  </div>
+
+
+  <div class="container">
+    <header class="site-header">
+      <a href="https://google.com">
+      <img src="images/a.png" alt="あ" width="100">
+      </a>
+    </header>
+
+   <p class="super">
+　　　<strong>ようこそ！！！welcome</strong>
+    </p>
+    <img src="images/logo.png" alt="ロゴ" class="logo" >
+    <div class="box">
+      うにょんにょん号HPです。
+      <br>
+      管理人は
+       <font color="blue">
+        <strong>
+         ぽにかす
+        </strong>
+       </font>
+      です。
+　　　<br>
+      連絡は
+       <font color="blue">
+        <strong>
+         こちら→
+        </strong>
+       </font>
+    </div>
+    <a href="https://google.com" class="xbig">入り口</a>
+    <br><br><br>
+
+<div class="notice">
+  <div class="notice-box">
+     <p>---------------<strong class="bigfont">活動予定</strong>---------------</p>
+    <br>
+<div class="notice-text-area">
+  <div class="notice-text">
+    <a href="#">2026/2/24 test</a>
+  </div>
+  <div class="notice-text">
+    <a href="#">2026/1/1 test</a>
+  </div>
+  <div class="notice-text">
+    <a href="#">2026/1/1 test</a>
+  </div>
+ <div class="notice-text">
+    <a href="#">2026/1/1 test</a>
+  </div>
+ <div class="notice-text">
+    <a href="#">2026/1/1 test</a>
+  </div>
+ <div class="notice-text">
+    <a href="#">2026/1/1 test</a>
+  </div> 
+<div class="notice-text">
+    <a href="#">2026/1/1 test</a>
+  </div> 
+<div class="notice-text">
+    <a href="#">2026/1/1 test</a>
+  </div> 
+<div class="notice-text">
+    <a href="#">2026/3/31 完成目標</a>
+  </div> 
+<div class="notice-text">
+    <a href="#">2026/２/24 第一回セーブポイント</a>
+  </div>
+ <div class="notice-text">
+    <a href="#">2026/2/18 点検</a>
+  </div>
+ <div class="notice-text">
+    <a href="#">2026/1/1 ☆★☆開設☆★☆</a>
+  </div>
+</div>
+
+    <br><br>
+    <div class="notice-line">----------------------------------------</div>
+  </div>
+</div>
+<br><br><br><br>
+<strong class="bigfont"><お問い合わせ></strong>
+
+<br><br>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfyVspw_T48cbNObLvWRASKQZeM8ES9gai94aNwEKOee0xeJQ/viewform?embedded=true" width="600" height="480" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+<br><br><br><br>
+<footer>
+  © 2026 うにょんにょん号
+  <br>最終更新：2026/2/24
+  <a href="https://google.com">.</a>
+
+</footer>
+
+  </div>
+</div>
+</body>
+</html>
