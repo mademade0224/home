@@ -5,7 +5,24 @@ document.oncontextmenu = function() {
 
 window.addEventListener('load', function() {
   const loading = document.getElementById('loading');
-  loading.style.display = 'none';
+
+  const minDisplayTime = 2000; // 2秒は必ず表示
+  const startTime = Date.now();
+
+  function hideLoading() {
+    const elapsed = Date.now() - startTime;
+    const remaining = minDisplayTime - elapsed;
+
+    if (remaining > 0) {
+      setTimeout(() => {
+        loading.style.display = 'none';
+      }, remaining);
+    } else {
+      loading.style.display = 'none';
+    }
+  }
+
+  hideLoading();
 });
 
 // ボタンとモーダルの対応リスト
