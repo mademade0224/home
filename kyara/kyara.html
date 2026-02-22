@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>キャラ</title>
+  <link rel="stylesheet" href="kyara.css">
+</head>
+<body>
+<div class="modal-overlay" id="modalOverlayA">
+  <div class="modal">
+    <div class="close-btn" id="closeModalA">×</div>
+    <h2>目からビーム</h2>
+    <p>目からビームが出ます。
+<br>その歴史は実は非常に長いのです。</p>
+  </div>
+</div>
+<div class="modal-overlay" id="modalOverlayB">
+  <div class="modal">
+    <div class="close-btn" id="closeModalB">×</div>
+    <h2>モーダルB</h2>
+    <p>ここに説明や画像を入れられます。</p>
+  </div>
+</div>
+<div class="modal-overlay" id="modalOverlayC">
+  <div class="modal">
+    <div class="close-btn" id="closeModalC">×</div>
+    <h2>モーダルC</h2>
+    <p>ここに説明や画像を入れられます。</p>
+  </div>
+</div>
+  <h1>Character</h1>
+<!-- ▼ リロードしない切り替え用ボタン -->
+<div class="content-menu">
+  <button data-chara="a">キャラA表示</button>
+  <button data-chara="b">キャラB表示</button>
+  <button data-chara="c">キャラC表示</button>
+</div>
+
+<div id="content">
+  ここにキャラ情報が表示されます
+</div>
+
+<!-- ▼ モーダル用ボタン -->
+<div class="modal-menu">
+  <button id="openModalA">モーダルA</button>
+  <button id="openModalB">モーダルB</button>
+  <button id="openModalC">モーダルC</button>
+</div>
+
+
+
+<script src="kyara.js"></script>
+</body>
+</html>
